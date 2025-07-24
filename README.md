@@ -183,9 +183,3 @@ ns-fetch import --type customer \
 
 ---
 
-## License
-
-MIT © Your Name
-
-```
-```
