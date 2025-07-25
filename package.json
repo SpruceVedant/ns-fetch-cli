@@ -1,7 +1,7 @@
 {
   "name": "ns-fetch",
   "version": "1.0.0",
-  "description": "",
+  "description": "A flexible CLI for NetSuite SuiteTalk REST Record API, supporting CRUD operations, bulk import from JSON/CSV/Excel, and customizable header/value mapping.",
   "main": "index.js",
   "bin": {
     "ns-fetch": "./ns-fetch.js"
