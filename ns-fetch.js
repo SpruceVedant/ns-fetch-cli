@@ -18,7 +18,6 @@ try {
 } catch {}
 try { xlsx = require('xlsx'); } catch {};
 
-
 const CONFIG_PATH = path.join(os.homedir(), '.nsfetch-config.json');
 
 function loadConfig() {
