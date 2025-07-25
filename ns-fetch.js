@@ -78,7 +78,7 @@ const args = minimist(process.argv.slice(2), {
     ? args._[0]
     : 'get';
 
-  const typeMap = { so:'salesOrder', po:'purchaseOrder', inv:'invoice', customer:'customer', vendor:'vendor' };
+  const typeMap = { so:'salesOrder', po:'purchaseOrder', inv:'invoice', customer:'customer', vendor:'vendor', emp: 'employee', bill:'vendorBill' };
   const recordType = typeMap[args.type] || args.type;
   if (!recordType && action !== 'get') {
     console.error('Error: Missing or invalid --type');
