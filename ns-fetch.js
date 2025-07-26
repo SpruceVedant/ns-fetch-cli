@@ -183,7 +183,6 @@ const args = minimist(process.argv.slice(2), {
       console.log(JSON.stringify(results, null, 2));
       process.exit(0);
     }
-
     if (action === 'create') {
       if (!args.data) {
         console.error('Error: --data JSON payload required for create');
