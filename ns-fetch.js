@@ -27,7 +27,6 @@ function loadConfig() {
     return null;
   }
 }
-
 function saveConfig(conf) {
   fs.writeFileSync(
     CONFIG_PATH,
